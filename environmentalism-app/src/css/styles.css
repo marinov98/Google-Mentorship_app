@@ -13,6 +13,38 @@ html {
   text-rendering  : optimizeLegibility;
 }
 
+/* Headers */
+
+header {
+  background-image     : -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.164))), url("img/forest.jpeg");
+  background-image     : linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.116)), url("img/forest.jpeg");
+  background-size      : cover;
+  background-position  : center;
+  height               : 120vh;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+/* LOOGS AND IMAGES */
+
+.logos {
+  position         : absolute;
+  height           : 800px;
+  width            : 800px;
+  top              : 50%;
+  left             : 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform        : translate(-50%, -50%);
+}
+
+
 
 
 /* ########################################
@@ -38,6 +70,12 @@ a:hover {
 }
 
 /*########  Main - nav #########*/
+
+.sticky {
+  background-color: aliceblue;
+}
+
+
 .main-nav {
     float     : right;
     list-style: none;
@@ -69,6 +107,21 @@ a:hover {
 /* ##################################### */
 
 
+/* buttons */
+
+.btn:link,
+.btn:visited {
+  background-color: #063f74;
+  border: 1px solid #2ecc71;
+  border-radius: 145px;
+  padding-bottom: 10px;
+  transition: background-color 0.4s, color 0.4s, border 0.4s;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: aqua;
+}
 
 
 
