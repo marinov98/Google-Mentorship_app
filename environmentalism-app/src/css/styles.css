@@ -1,10 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-* {
-
-    /*background-color: rgb(0,102,204);
-    color: rgb(0,204,102);*/
-}
 
 html {
   font-family     : 'Lato', 'Arial', sans-serif;
@@ -34,15 +29,6 @@ h2 {
 
 /* LOOGS AND IMAGES */
 
-.appleseed {
-  position         : absolute;
-  height           : 800px;
-  width            : 800px;
-  top              : 50%;
-  left             : 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform        : translate(-50%, -50%);
-}
 
 .appLogo {
   height: 500px;
@@ -51,7 +37,7 @@ h2 {
 
 /* CopyRight */
 .Copyright {
-  padding-left: 30px;
+  padding-left: 80px;
   color: white;
 }
 
@@ -112,7 +98,20 @@ a:hover {
     border-bottom: 2px solid #14f7ff;
   }
 
- /* Sticky navi */
+.appleseed {
+  position         : absolute;
+  height           : 800px;
+  width            : 800px;
+  top              : 50%;
+  left             : 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform        : translate(-50%, -50%);
+  padding-top: 15px;
+}
+
+#About {
+  font-size: 28px;
+}
 
 /* ##################################### */
 
