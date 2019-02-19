@@ -44,7 +44,16 @@ h2 {
   transform        : translate(-50%, -50%);
 }
 
+.appLogo {
+  height: 500px;
+  width: 500px;
+}
 
+/* CopyRight */
+.Copyright {
+  padding-left: 30px;
+  color: white;
+}
 
 
 /* ########################################
@@ -123,6 +132,8 @@ a:hover {
 .btn:hover {
   background-color: rgb(0, 255, 119);
 }
+
+
 
 
 
