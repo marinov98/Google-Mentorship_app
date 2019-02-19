@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  /*color: white; */
 }
 
 
@@ -50,7 +50,9 @@ h2 {
   color: white;
 }
 
-
+#Author {
+  color: white;
+}
 
 a:link,
 a:visited {
@@ -115,6 +117,7 @@ a:hover {
 
 #About {
   font-size: 28px;
+  color: white;
 }
 
 /* ##################################### */
@@ -137,6 +140,27 @@ a:hover {
 }
 
 
+
+/* ########## Recycling Page #############*/
+.Recycling {
+  background-color: rgb(71, 88, 246);
+}
+
+.BadnGood {
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+  color: rgb(255, 234, 112);
+}
+
+.goodTitle {
+  color: greenyellow;
+}
+
+.badTitle {
+  color: red;
+}
+
+/* ######### Recycling End ###########*/
 
 
 
