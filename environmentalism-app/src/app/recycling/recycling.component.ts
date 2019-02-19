@@ -4,7 +4,8 @@ import { Component} from '@angular/core';
     selector: 'recycling',
     template: `
     <h2 class="goodTitle">{{ goodMaterials }}</h2> 
-      <div class=row>
+    <div class="container">
+      <div class="row">
         <div class="col-sm-6">
           <ul>
             <li *ngFor="let materials of goodMaterialList">
@@ -17,19 +18,22 @@ import { Component} from '@angular/core';
             <p>Something Something</p>
         </div>
       </div>
+    </div>
     <h2 class="badTitle">{{ badMaterials }}</h2>
+    <div class="container">
     <div class="row"> 
-      <div class="col-sm-6">
+      <div class="2 col-sm-6">
           <ul>
             <li *ngFor="let materials of badMaterialList">
                 {{materials}}
             </li>
           </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="2 col-sm-6">
             <h2>Description</h2>
             <p>Something Something</p>
         </div>
+    </div>
     </div>`
 
               
