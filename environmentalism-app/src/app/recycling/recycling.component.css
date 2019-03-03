@@ -1,0 +1,21 @@
+/* ########## Recycling Page #############*/
+.Recycling {
+  background-color: rgb(71, 88, 246);
+}
+
+.BadnGood {
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+  color: rgb(255, 234, 112);
+}
+
+.goodTitle {
+  color: greenyellow;
+}
+
+.badTitle {
+  color: red;
+}
+
+/* ######### Recycling End ###########*/
+

@@ -141,7 +141,8 @@ a:hover {
 
 
 
-/* ########## Recycling Page #############*/
+
+/* ########## Recycling Page ############# */
 .Recycling {
   background-color: rgb(71, 88, 246);
 }
@@ -153,10 +154,12 @@ a:hover {
 }
 
 .goodTitle {
+  margin-left: 15px;
   color: greenyellow;
 }
 
 .badTitle {
+  margin-left: 15px;
   color: red;
 }
 
