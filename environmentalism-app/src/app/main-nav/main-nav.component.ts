@@ -9,6 +9,7 @@ export class MainNavComponent implements OnInit {
 
   options:string[] = ["Recycling","What You Can Do","Why Care?","Global Warming"];
 
+  songAuthor:string ="-Joe Strummer & The Mescaleros' Song \"Johnny Appleseed\"" 
 
   constructor() { }
 
