@@ -1,0 +1,23 @@
+.IndividualEffort {
+    background-color: greenyellow;
+    color: azure;
+}
+
+.IndivEffTitle {
+    padding-top: 15px;
+    color: azure;
+    color: darkgreen;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#motivation {
+    color: darkgreen;
+    text-align: center;
+    float: right;
+    padding-right: 50px;
+}
+
+iframe {
+    padding-left: 50px;
+}
