@@ -21,11 +21,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/css/img",
-              "/src/app/main-nav/imgs"
+              "src/img/logos",
+              "src/app/main-nav/imgs"
             ],
             "styles": [
-              "src/css/styles.css",
+              "src/styles.css",
               "src/bootstrap/bootstrap.min.css"
             ],
             "scripts": []
