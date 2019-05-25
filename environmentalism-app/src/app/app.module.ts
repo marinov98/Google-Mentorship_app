@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RecyclingComponent } from './recycling/recycling.component';
-import { WCanDoComponent } from './what_you_can_do/wcando.component';
 import { IndividualEffortComponent } from './individual-effort/individual-effort.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 
@@ -12,7 +11,7 @@ import { MainNavComponent } from './main-nav/main-nav.component';
   declarations: [
     AppComponent,
     RecyclingComponent, 
-    WCanDoComponent, IndividualEffortComponent, MainNavComponent
+    IndividualEffortComponent, MainNavComponent
   ],
   imports: [
     BrowserModule,
