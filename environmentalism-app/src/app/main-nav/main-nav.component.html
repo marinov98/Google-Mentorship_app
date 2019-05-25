@@ -3,22 +3,11 @@
   <nav class="sticky">
     <div class="row">
       <ul class="main-nav">
-        <li>
-          <a href="#recycling">Recycling</a>
+        <li *ngFor="let option of options">
+          <a href="#{{option}}">{{option}}</a>
         </li>
         <li>
-          <a href="#IndEffort">What You Can Do</a>
-        </li>
-        <li>
-          <a href="#Care">Why Care?</a>
-        </li>
-        <li>
-          <a href="#Gwarming">Global Warming</a>
-        </li>
-        <li class="Copyright">
-          <div class="row">
-            <p>Copyright &copy; 2019 by Google_Mentorship. All rights reserved</p>
-          </div>
+          <p class="Copyright">Copyright &copy; 2019 by Google_Mentorship. All rights reserved</p>
         </li>
       </ul>
     </div>

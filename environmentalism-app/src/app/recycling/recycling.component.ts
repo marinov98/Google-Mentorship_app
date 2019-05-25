@@ -8,10 +8,10 @@ import { Component, OnInit} from '@angular/core';
 
 export class RecyclingComponent implements OnInit { 
 
-  goodMaterials = "Good recycling materials";
-  badMaterials = "Bad recycling materials";
-  goodMaterialList = ["Aluminum","Cardboard","Paper"];
-  badMaterialList = ["Glass","Plastic"];
+  goodMaterials:string = "Good recycling materials";
+  badMaterials:string = "Bad recycling materials";
+  goodMaterialList:string[] = ["Aluminum","Cardboard","Paper"];
+  badMaterialList:string[] = ["Glass","Plastic"];
 
   description1:boolean = false;
   description2:boolean = false;
